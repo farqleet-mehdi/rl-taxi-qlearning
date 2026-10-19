@@ -1,0 +1,11 @@
+parameter,value,train_last100_avg,greedy_eval_reward,greedy_eval_steps
+alpha,0.01,-48.34,-174.55,177.07
+alpha,0.1,5.44,7.64,13.36
+alpha,0.5,5.17,7.92,13.08
+alpha,0.9,5.4,8.04,12.96
+gamma,0.5,4.08,-60.11,74.18
+gamma,0.9,5.72,8.08,12.92
+gamma,0.99,5.44,7.64,13.36
+eps_decay,0.99,5.67,7.73,13.27
+eps_decay,0.999,5.44,7.64,13.36
+eps_decay,0.9999,-83.81,7.93,13.07
