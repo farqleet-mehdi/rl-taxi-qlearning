@@ -1,0 +1,5 @@
+Environment: Taxi-v4
+Episodes: 10000, alpha=0.1, gamma=0.99, eps 1.0->0.05, decay=0.999, seed=0
+Random baseline: mean=-780.16, std=85.62
+Greedy eval (100 eps): mean=7.53, std=2.43, steps=13.47
+GIF episode length: 12 steps
