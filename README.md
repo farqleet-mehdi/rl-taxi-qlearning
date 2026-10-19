@@ -29,4 +29,11 @@ tabular Q-learning with epsilon-greedy exploration.
 
 ## Results
 
-(To be filled in after training.)
+| Policy | Mean reward | Std | Mean steps |
+|---|---|---|---|
+| Random baseline | -780.16 | 85.62 | n/a (hits 200-step limit) |
+| Trained Q-learning (greedy, 100 eps) | 7.53 | 2.43 | 13.47 |
+
+- Training: average reward went from -756.53 (first 100 episodes) to 4.58 (last 100) over 10,000 episodes.
+- Sensitivity sweep results are in `results/sweep_results.csv` and the `results/sensitivity_*.png` plots.
+- Demo of the trained agent: `taxi_agent.gif`.
