@@ -1,0 +1,5 @@
+gymnasium[toy-text]==1.4.0
+numpy
+matplotlib
+imageio
+jupyter
